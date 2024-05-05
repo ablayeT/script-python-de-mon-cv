@@ -15,9 +15,9 @@ table.add_column("Contenu", justify="left")
 # Construction du contenu avec des styles sélectifs pour les compétences
 content_text = Text()
 content_text.append("Langages informatiques: ", style="black on white underline")
-content_text.append("HTML/CSS, Javascript, React, Python, PHP\n")
+content_text.append("HTML/CSS, Javascript, React,Node JS, Express, MongoDB, MySQL, Python, PHP\n")
 content_text.append("Savoir-faire: ", style="black on white underline")
-content_text.append("autonomie, rigueur, discrétion, résolution de problèmes")
+content_text.append("autonomie, rigueur, discrétion,curiosié, résolution de problèmes")
 
 # Ajout des données pour la table principale
 sections = [
@@ -38,15 +38,15 @@ table.add_row(exp_form_title, Text("", style="on white"))
 
 # Construction du contenu pour 'Expériences professionnelles'
 exp_text = Text()
-exp_text.append("→ Compagnie A - Développeur Web\n")
-exp_text.append("→ Compagnie B - Ingénieur Logiciel\n")
-exp_text.append("→ Compagnie C - Analyste de données")
+exp_text.append("→Développeurweb eet web mobile -  Entourage--0ct2022-Nov2023b\n")
+exp_text.append("→Fondateur et gérant d'un commerc - Toure_multiservices - Mai2017-Nov2019l\n")
+exp_text.append("→Professeur d'anglai -  Barnes_English_centeer - Sept2017 - Nov2019")
 
 # Construction du contenu pour 'Formation'
 form_text = Text()
-form_text.append("→ Université X - BSc Informatique\n")
-form_text.append("→ École Y - Diplôme en Web Design\n")
-form_text.append("→ Institut Z - Certification Python")
+form_text.append("→Développeur web et web mobileX -WEBFOREC,Paris\n")
+form_text.append("→Développeur intégrateur webY -OPENCLASSROOM, Paris\n")
+form_text.append("→Master II: Littérature et civilisation américaine et caribéeeneZ -UCAD, Dakar, SENEGAL\n")
 
 # Ajout des expériences professionnelles et formations
 table.add_row("Expériences professionnelles", exp_text)
